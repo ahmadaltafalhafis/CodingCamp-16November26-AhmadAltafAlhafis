@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "tugas",
+      "trigger": "UserPromptSubmit",
+      "action": {
+        "type": "agent",
+        "prompt": "Technical Constraints\nTC-1: Technology Stack\nHTML for structure\nCSS for styling\nVanilla JavaScript (no frameworks like React, Vue, etc.)\nNo backend server required\n\n\nTC-2: Data Storage\nUse browser Local Storage API\nAll data stored client-side only\n\n\nTC-3: Browser Compatibility\nMust work in modern browsers (Chrome, Firefox, Edge, Safari)\nCan be used as standalone web app or browser extension\n\n\nNon-Functional Requirements\nNFR-1: Simplicity\nClean, minimal interface\nEasy to understand and use\nNo complex setup required\nNo test setup required\n\n\nNFR-2: Performance\nFast load time\nResponsive UI interactions\nNo noticeable lag when updating data\n\n\nNFR-3: Visual Design\nUser-friendly aesthetic\nClear visual hierarchy\nReadable typography"
+      },
+      "description": "tugas",
+      "enabled": true
+    }
+  ]
+}
